@@ -1,0 +1,26 @@
+.proButton{
+    width: 40px !important;
+    height: 28px !important;
+}
+
+.input2{
+    width: 800px !important;
+    color: black !important;
+}
+
+.navbar2 .btnfilter{
+    width: 100px !important;
+}
+
+.body1 , .body2{
+    gap: 20px !important;
+}
+
+.footer{
+    color: white !important;
+    background-color: #191919 !important;
+}
+
+.footer ul{
+    list-style: none;
+}
