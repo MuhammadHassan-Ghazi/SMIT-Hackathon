@@ -12,7 +12,7 @@
 
 <body>
     <!-- Navbar Start-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar1 navbar navbar-expand-lg navbar-light bg-white mx-0 position-sticky top-0  border-bottom border-secondary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./Images/logo.png" alt="">
@@ -44,7 +44,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             Behance
-                            <button class="btn btn-primary text-white text-center proButton p-1">Pro</button>
+                            <button class="btn btn-primary text-white text-center  proButton p-0">Pro</button>
                              <!-- <img src="./Images/pro image.png" alt=""> -->
                         </a>
                     </li>
@@ -76,15 +76,22 @@
     <!-- Navbar End -->
 
     <!-- Navbar 2 Start -->
-    <nav class="navbar navbar-light bg-light navbar2">
+    <nav class="navbar2 navbar navbar-light bg-white navbar2  mx-0">
         <div class="container">
           <!-- <a class="navbar-brand"> -->
             <!-- Navbar -->
              
           <!-- </a> -->
           <form class="d-flex">
-            <button class="btn btn-outline-secondary rounded-pill btnfilter">Filters</button>
-            <input class="form-control rounded-pill mx-4 input2 text-dark" type="search" placeholder="Search the Creative world at work" aria-label="Search">
+            <button class="btn btn-outline-secondary rounded-pill btnfilter">
+              <img src="./Images/filter.png" width="20" height="20" alt="">
+              Filters
+            </button>
+            <span class="input2 rounded-pill mx-4 d-flex border border-secondary align-items-center p-1">
+                <img src="./Images/search.png" width="20" height="20" alt="">
+                <input class="form-control rounded-pill input2 text-dark border-0" type="search" placeholder="Search" aria-label="Search">
+            </span>
+            
             <button class="btn btn-outline-secondary  rounded-pill btnRec" type="button">Recommended</button>
           </form>
         </div>
@@ -92,124 +99,211 @@
     <!-- Navbar 2 End -->
 
     <!-- Body 1 -->
-     <div class="body1 d-flex mt-5 px-3">
-        <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084200.png" class="card-img-top" alt="...">
+     <div class="body1 row mt-5 px-3 mx-0">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-14 084200.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-15 075920.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-14 084111.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-14 084133.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-14 084227.png" class="card-img-top" alt="..." width="200" height="220">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-        <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084044.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
           <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084111.png" class="card-img-top" alt="...">
+            <img src="./Images/Annotation 2025-01-14 084245.png" class="card-img-top" alt="..." width="200" height="220">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
           <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084133.png" class="card-img-top" alt="...">
+            <img src="./Images/Annotation 2025-01-14 084305.png" class="card-img-top" alt="..." width="200" height="220">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-14 084347.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-15 075630.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-15 080103.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-15 080917.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <div class="card ms-1">
+            <img src="./Images/Annotation 2025-01-15 080956.png" class="card-img-top" alt="..." width="200" height="220">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
      </div>
     <!-- Body 1 -->
 
     <!-- Body 2 -->
-    <div class="body2 d-flex mt-5 px-3">
-        <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084227.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+     <div class="mt-5 text-center p-5  mx-0">
+        <h4>Sign up or Sign in to your account to view more work personlized to your preference.</h4>
+        <div class="mt-3">
+            <button class="btn btn-primary text-white rounded-pill fw-bold">Sign Up with Email</button> or
+            <img src="./Images/facebook.0d22b4d986cc357e30b7.png" class="ms-2 cursorpointer" width="40" height="40" alt="">
+            <img src="./Images/google.jfif" class="ms-1 cursorpointer" width="40" height="40" alt="">
         </div>
-        <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084245.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084305.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card ms-1">
-            <img src="./Images/Annotation 2025-01-14 084347.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
      </div>
     <!-- Body 2 -->
 
     <!-- Body 3 -->
-     <div class="mt-5 text-center p-5">
-        <h4>Sign up or Sign in to your account to view more work personlized to your preference.</h4>
-        <div class="mt-3">
-            <button class="btn btn-primary text-white">Sign Up with Email</button> or
-            <img src="./Images/facebook.0d22b4d986cc357e30b7.png" class="ms-1" width="40" height="40" alt="">
-            <img src="./Images/google.jfif" class="ms-1" width="40" height="40" alt="">
-        </div>
+     <div class="border-top border-dark d-flex justify-content-center align-items-center p-3  mx-0">
+        <p><span class="fw-bold">Upgrade to Behance Pro today:</span> Get advanced analytics, a custom portfolio website, and more features to grow your creative career.
+        <span class="fw-bold text-primary cursorpointer">Start your 7 days free trial</span>
+        </p>
      </div>
     <!-- Body 3 -->
 
-    <!-- Body 4 -->
-     <div class="border-top border-dark d-flex justify-content-center align-items-center p-3">
-        <p><span class="fw-bold">Upgrade to Behance Pro today:</span> Get advanced analytics, a custom portfolio website, and more features to grow your creative career.
-        <span class="fw-bold text-primary">Start your 7 days free trial</span>
-        </p>
-     </div>
-    <!-- Body 4 -->
-
     <!-- Footer -->
-     <div class="footer d-flex justify-content-between p-5">
-        <ul>
-            <li>
+     <div class="footer pt-5 pb-2  mx-0">
+        <div class="p-0 mx-0">
+          <!-- <ul class="p-0"> -->
+            <!-- <li> -->
                 <img src="./Images/logo white.png" alt="">
-            </li>
-        </ul>
-        <ul>
-            <li class="mb-3 fw-bold">Built For Creatives</li>
-            <li class="mb-1">Try Behance Pro</li>
-            <li class="mb-1">Find Inspiration</li>   
-            <li class="mb-1">Get Hired</li>   
-            <li class="mb-1">Sell Creative Assets</li>   
-            <li class="mb-1">Sell Freelance Services</li>
-        </ul>
-        <ul>
-            <li class="mb-3 fw-bold">Find Talent</li>
-            <li class="mb-1">Post a Job</li>
-            <li class="mb-1">Graphic Designers</li>   
-            <li class="mb-1">Photograhers</li>   
-            <li class="mb-1">Video Editors</li>   
-            <li class="mb-1">Web Designers</li>
-            <li class="mb-1">Illustrators</li>
-        </ul>
-        <ul>
-            <li class="mb-3 fw-bold">Behance</li>
-            <li class="mb-1">About Behance</li>
-            <li class="mb-1">Adobe Portfolio</li>   
-            <li class="mb-1">Download the App</li>   
-            <li class="mb-1">Blog</li>   
-            <li class="mb-1">Carriers</li>
-            <li class="mb-1">Help Center</li>
-            <li class="mb-1">Contact Us</li>
-        </ul>
-        <ul>
-            <li class="mb-3 fw-bold">Social</li>
-            <li class="mb-1">Instragram</li>
-            <li class="mb-1">Twitter</li>   
-            <li class="mb-1">Pinterest</li>   
-            <li class="mb-1">Facebook</li>   
-            <li class="mb-1">Linkedin</li>
-        </ul>
+            <!-- </li> -->
+          <!-- </ul> -->
+        </div>
+       
+        <div class="f2 p-2 row mx-0 border-bottom border-white">
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3 p-0 mx-0">
+            <ul class="p-0">
+              <li class="mb-3 fw-bold">Built For Creatives</li>
+              <li class="mb-1 ch">Try Behance Pro</li>
+              <li class="mb-1 ch">Find Inspiration</li>   
+              <li class="mb-1 ch">Get Hired</li>   
+              <li class="mb-1 ch">Sell Creative Assets</li>   
+              <li class="mb-1 ch">Sell Freelance Services</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3 p-0 mx-0">
+            <ul class="p-0">
+              <li class="mb-3 fw-bold">Find Talent</li>
+              <li class="mb-1 ch">Post a Job</li>
+              <li class="mb-1 ch">Graphic Designers</li>   
+              <li class="mb-1 ch">Photograhers</li>   
+              <li class="mb-1 ch">Video Editors</li>   
+              <li class="mb-1 ch">Web Designers</li>
+              <li class="mb-1 ch">Illustrators</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3 p-0 mx-0">
+            <ul class="p-0">
+              <li class="mb-3 fw-bold">Behance</li>
+              <li class="mb-1 ch">About Behance</li>
+              <li class="mb-1 ch">Adobe Portfolio</li>   
+              <li class="mb-1 ch">Download the App</li>   
+              <li class="mb-1 ch">Blog</li>   
+              <li class="mb-1 ch">Carriers</li>
+              <li class="mb-1 ch">Help Center</li>
+              <li class="mb-1 ch">Contact Us</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3 p-0 mx-0">
+            <ul class="p-0">
+              <li class="mb-3 fw-bold">Social</li>
+              <li class="mb-1 ch">Instragram</li>
+              <li class="mb-1 ch">Twitter</li>   
+              <li class="mb-1 ch">Pinterest</li>   
+              <li class="mb-1 ch">Facebook</li>   
+              <li class="mb-1 ch">Linkedin</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="f3 d-flex justify-content-center align-items-center my-2"> -->
+          <div class="d-flex justify-content-center mt-2">
+            <img src="./Images/adobe footer.png" alt="">
+          </div>
+          
+          <ul class="list d-flex mt-2 justify-content-center mx-3">
+            <li>© 2025 Adobe Inc. All rights reserved.</li>
+            <li>English</li>
+            <li>TOU</li>
+            <li>Privacy</li>
+            <li>Community</li>
+            <li>Cookie preference</li>
+            <li>Do not sell or share my personal information</li>
+          </ul>
+        <!-- </div> -->
+
      </div>
     <!-- Footer -->
 </body>

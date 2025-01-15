@@ -1,26 +1,122 @@
+body {
+    overflow-x: hidden;
+  }
+
+.navbar1{
+    z-index: 1 !important;
+}
 .proButton{
-    width: 40px !important;
-    height: 28px !important;
+    width: 35px !important;
+    height: 20px !important;
+    /* text-align: center !important; */
+    font-size: 12px !important;
+    font-weight: bold !important;
 }
 
 .input2{
-    width: 800px !important;
+    width: 700px !important;
     color: black !important;
 }
+
+@media only screen and (max-width:1040px){
+    .input2{
+        width: 600px !important;
+        color: black !important;
+    }
+    
+}
+
+@media only screen and (max-width:994px){
+    .input2{
+        width: 500px !important;
+        color: black !important;
+    }
+    
+}
+
+@media only screen and (max-width:881px){
+    .input2{
+        width: 500px !important;
+        color: black !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    
+}
+
+@media only screen and (max-width:786px){
+    .input2{
+        width: 300px !important;
+        color: black !important;
+    }
+    
+}
+
+@media only screen and (max-width:661px){
+    .input2{
+        width: 200px !important;
+        color: black !important;
+    }
+    
+}
+
+@media only screen and (max-width:510px){
+    .navbar2{
+        visibility: hidden;
+    }
+    
+}
+
 
 .navbar2 .btnfilter{
     width: 100px !important;
 }
 
-.body1 , .body2{
+/* .body1{
     gap: 20px !important;
-}
+} */
 
 .footer{
     color: white !important;
     background-color: #191919 !important;
+    flex-wrap: wrap;
+    gap:20px;
 }
 
 .footer ul{
     list-style: none;
+}
+
+
+.footer ul  .ch{
+   font-size: 20px;
+}
+
+.footer ul  .ch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.cursorpointer{
+    cursor: pointer;
+}
+
+/* .footer .f2  {
+    gap: 10px;
+ } */
+
+ .list{
+    flex-wrap: wrap !important;
+ }
+
+ .list{
+    list-style: none;
+    gap: 20px !important;
+ }
+
+ .list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
