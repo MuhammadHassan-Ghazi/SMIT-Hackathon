@@ -14,11 +14,11 @@ body {
 }
 
 .input2{
-    width: 700px !important;
+    width: 90% !important;
     color: black !important;
 }
 
-@media only screen and (max-width:1040px){
+/* @media only screen and (max-width:1040px){
     .input2{
         width: 600px !important;
         color: black !important;
@@ -64,17 +64,49 @@ body {
     .navbar2{
         visibility: hidden;
     }
+    .body1{
+        margin-top:10px;
+    }
+    
+} */
+
+@media only screen and (max-width:875px){
+    .navbar2 .btnfilter > span{
+        display: none;
+    }
     
 }
 
+@media only screen and (max-width:456px){
+    .body2 .orspan{
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width:400px){
+    .navbar2{
+        visibility: hidden;
+        height: 2px !important;
+    }
+    .body1{
+        margin-top: 10px !important;
+    }
+}
+
+
 
 .navbar2 .btnfilter{
-    width: 100px !important;
+    width: 15%!important;
 }
 
 /* .body1{
     gap: 20px !important;
 } */
+
+.body2 > div{
+    flex-wrap: wrap;
+}
 
 .footer{
     color: white !important;
